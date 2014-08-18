@@ -16,7 +16,7 @@
             
             $contactRepository = new SGContactRepository();                
             
-            $surveyID = 1383694;
+            $surveyID = 0;
             $campaignID = NULL;
             $data = array(
                 "page" => 1,
