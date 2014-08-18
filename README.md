@@ -12,6 +12,7 @@ Lean layer to access SurveyGizmo API
 ##Authenticating
 
 - Unfortunately, Basic authentication is the only option you have at the moment
+- Authentication is not based on a SESSION as of yet.
 
 ##Making API calls
 
@@ -21,7 +22,7 @@ Lean layer to access SurveyGizmo API
         require_once "../SurveyGizmo.php";
 ```
 
-- At this point you will have access to all of the repository class types... Please just include and use the namespace you need:
+- At this point you will have access to all of the repository class types... Please just include and use the namespace you need and make sure you do not forget to autheticate first:
 
 
 ```php
