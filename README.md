@@ -17,15 +17,19 @@ Lean layer to access SurveyGizmo API
 
 - You will need to include the SurveyGizmoAPI.php
 
-    ```require_once "../SurveyGizmo.php";```
+```php
+        require_once "../SurveyGizmo.php";
+```
 
 - At this point you will have access to all of the repository class types... Please just include and use the namespace you need:
 
 
-    ```// https://github.com/OvalUK/PHP_SurveyGizmoAPI/blob/master/SurveyGizmo/Examples/surveys.php   
-    use SurveyGizmo\Models\Concrete\SGSurveyRepository;
-    $surveyRepository = new SGSurveyRepository();
-    $survey = $surveyRepository->GetList( $data );```
+```php
+        // https://github.com/OvalUK/PHP_SurveyGizmoAPI/blob/master/SurveyGizmo/Examples/surveys.php   
+        use SurveyGizmo\Models\Concrete\SGSurveyRepository;
+        $surveyRepository = new SGSurveyRepository();
+        $survey = $surveyRepository->GetList( $data );
+```
     
 
 
