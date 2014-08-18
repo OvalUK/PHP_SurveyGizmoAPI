@@ -1,7 +1,8 @@
-PHP_SurveyGizmoAPI - Lean layer to access SurveyGizmo API
+PHP_SurveyGizmoAPI
+==================
 
 http://www.ovalbusinesssolutions.co.uk
-==================
+Lean layer to access SurveyGizmo API
 
 ##Getting started
 
