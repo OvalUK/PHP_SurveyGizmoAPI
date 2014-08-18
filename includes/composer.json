@@ -1,0 +1,15 @@
+{
+    
+"require": {
+        
+
+"ohmy/auth": "*",
+        
+
+"php-curl-class/php-curl-class": "*",
+"php-linq": "*"
+ 
+
+}
+
+}
